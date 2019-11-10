@@ -10,11 +10,6 @@ class Song
 
   @@songs = []
 
-  # def initialize
-  #   save
-  #   # @@songs << self
-  # end
-
   def self.all
     @@songs
   end
@@ -22,8 +17,5 @@ class Song
   def artist=(artist)
     @artist = artist
   end
-  #
-  # def to_param
-  #   name.downcase.gsub(' ', '-')
-  # end
+
 end
